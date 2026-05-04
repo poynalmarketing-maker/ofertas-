@@ -1,0 +1,174 @@
+<style>
+.poynal-ofertas {
+  background: linear-gradient(180deg, #000000, #1a0002);
+  padding: 50px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.poynal-ofertas h1 {
+  font-size: 42px;
+  color: #b31217;
+  margin-bottom: 10px;
+  animation: fadeDown 1s ease;
+}
+
+.poynal-ofertas h2 {
+  font-size: 34px;
+  color: white;
+  margin-top: 40px;
+  animation: fadeUp 1.2s ease;
+}
+
+.poynal-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.poynal-card {
+  background: #111;
+  border: 1px solid #b31217;
+  border-radius: 12px;
+  padding: 15px;
+  width: 220px;
+  transition: 0.3s;
+  animation: fadeUp 1.5s ease;
+}
+
+.poynal-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 0 20px rgba(255,0,0,0.5);
+}
+
+.poynal-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.poynal-card p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* BOTON VER */
+.poynal-ver {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 20px;
+  background: #b31217;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.poynal-ver:hover {
+  background: #ff2a2a;
+}
+
+/* BOTON WPP */
+.poynal-btn {
+  margin-top: 40px;
+  display: inline-block;
+  padding: 14px 28px;
+  background: linear-gradient(45deg, #b31217, #ff2a2a);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.poynal-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(255,0,0,0.7);
+}
+
+/* BOTON VOLVER */
+.poynal-volver {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 26px;
+  background: #000;
+  border: 2px solid #b31217;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.poynal-volver:hover {
+  background: #b31217;
+}
+
+/* ANIMACIONES */
+@keyframes fadeUp {
+  from {opacity:0; transform: translateY(30px);}
+  to {opacity:1; transform: translateY(0);}
+}
+
+@keyframes fadeDown {
+  from {opacity:0; transform: translateY(-30px);}
+  to {opacity:1; transform: translateY(0);}
+}
+</style>
+
+<div class="poynal-ofertas">
+
+  <h1>OFERTAS</h1>
+
+  <div class="poynal-grid">
+
+    <div class="poynal-card">
+      <a href="https://poynal.com.ar/producto/os-eac0610/">
+        <img src="https://poynal.com.ar/wp-content/uploads/2025/05/OS.EAC0610-6511800610.webp">
+      </a>
+      <p>LANZAMIENTO ENFRIADOR DE ACEITE SPRINTER</p>
+      <a href="https://poynal.com.ar/producto/os-eac0610/" class="poynal-ver">VER</a>
+    </div>
+
+    <div class="poynal-card">
+      <a href="https://poynal.com.ar/producto/os-fav389/">
+        <img src="https://poynal.com.ar/wp-content/uploads/2023/03/OS.CFP1850-M2S6-G8A586-D1C-1-300x300.webp">
+      </a>
+      <p>LANZAMIENTO CARCAZA DE OSSCA RB100</p>
+      <a href="https://poynal.com.ar/producto/os-fav389/" class="poynal-ver">VER</a>
+    </div>
+
+    <div class="poynal-card">
+      <a href="https://poynal.com.ar/producto/os-fav06f/">
+        <img src="https://poynal.com.ar/wp-content/uploads/2025/06/OS.FAV06F-06F-115-397-H.webp">
+      </a>
+      <p>LANZAMIENTO ENFRIADOR DE ACEITE</p>
+      <a href="https://poynal.com.ar/producto/os-fav06f/" class="poynal-ver">VER</a>
+    </div>
+
+    <div class="poynal-card">
+      <a href="https://poynal.com.ar/producto/os-eac57ae/">
+        <img src="https://poynal.com.ar/wp-content/uploads/2025/06/OS.EAC57AE-4884757AE-2.webp">
+      </a>
+      <p>LANZAMIENTO ENFRIADOR DE ACEITE</p>
+      <a href="https://poynal.com.ar/producto/os-eac57ae/" class="poynal-ver">VER</a>
+    </div>
+
+  </div>
+
+  <h2>IMPERDIBLES</h2>
+
+  <a href="https://wa.me/5491169767396" target="_blank" class="poynal-btn">
+    CONSULTAR POR WHATSAPP
+  </a>
+
+  <br>
+
+  <a href="https://poynal.com.ar/" class="poynal-volver">
+    VOLVER A LA PÁGINA
+  </a>
+
+</div>
