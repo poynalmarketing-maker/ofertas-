@@ -117,6 +117,40 @@
   from {opacity:0; transform: translateY(-30px);}
   to {opacity:1; transform: translateY(0);}
 }
+
+/* IMAGEN MAS GRANDE */
+.poynal-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* TARJETA MAS GRANDE */
+.poynal-card {
+  width: 260px;
+}
+
+/* CONTENEDOR BOTONES */
+.poynal-botones {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* BOTONES MAS PRO */
+.poynal-btn {
+  margin-top: 0;
+}
+
+/* WHATSAPP VERDE (opcional, queda mejor) */
+.poynal-btn:first-child {
+  background: linear-gradient(45deg, #25D366, #1ebe5d);
+}
+  
 </style>
 
 <div class="poynal-ofertas">
@@ -140,26 +174,21 @@
   <p>OFERTA DE LA SEMANA ENFRIADOR DE ACEITE</p>
   <a href="https://poynal.com.ar/producto/os-poy7h09/" class="poynal-ver">VER</a>
 </div>
-    </div>
-<!-- BOTONES FINALES -->
-<div style="margin-top:40px;">
+ </div> <!-- CIERRE DEL GRID -->
 
-  <!-- WHATSAPP -->
+<!-- BOTONES FINALES -->
+<div class="poynal-botones">
   <a href="https://wa.me/5491169767392" target="_blank" class="poynal-btn">
     WhatsApp
   </a>
 
-  <!-- LISTAS DE PRECIOS -->
   <a href="ACA_PEGA_TU_LINK" target="_blank" class="poynal-btn">
     Listas de precios
   </a>
 
-  <!-- VOLVER A LA WEB -->
   <a href="https://poynal.com.ar" class="poynal-volver">
     Volver a la web
   </a>
-
 </div>
 
-  
-</div>
+</div> <!-- CIERRE FINAL -->
